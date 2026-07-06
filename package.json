@@ -1,0 +1,21 @@
+{
+  "name": "ca-robotics-radar-multiuser",
+  "version": "2.0.0",
+  "description": "Multi-user Construction Automation & Robotics Radar for EPC automation/robotics idea, PoC and vendor management.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "construction",
+    "automation",
+    "robotics",
+    "technology-radar",
+    "poc",
+    "epc"
+  ],
+  "license": "UNLICENSED"
+}

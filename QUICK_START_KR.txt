@@ -1,0 +1,52 @@
+[실행 방법]
+
+1. server.js를 더블클릭하지 마십시오.
+   더블클릭하면 Windows Script Host가 실행되어 아래 오류가 발생할 수 있습니다.
+   - 행 7, 문자 1, 코드 800A03EA, JavaScript 컴파일 오류
+
+2. 아래 파일을 더블클릭하십시오.
+   START_SERVER_WINDOWS.cmd
+
+3. 실행 창에 Node.js 버전이 표시되고 서버가 시작되면, 실행 PC에서는 아래 주소로 접속합니다.
+   http://localhost:8080
+
+4. 그룹원은 서버를 실행한 PC의 IPv4 주소로 접속합니다.
+   예: http://10.120.35.25:8080
+
+5. IP 확인 방법
+   CMD 실행 → ipconfig 입력 → IPv4 Address 확인
+
+6. 8080 포트가 막혀 있으면 아래 파일을 실행하십시오.
+   START_SERVER_PORT_8090_WINDOWS.cmd
+
+7. Node.js가 설치되어 있지 않으면 START_SERVER_WINDOWS.cmd에서 오류가 표시됩니다.
+   이 경우 Node.js 18 이상을 설치한 후 다시 실행하십시오.
+
+[운영 원칙]
+- server.js 실행 PC는 1대만 지정하십시오.
+- 다른 그룹원은 브라우저로만 접속하십시오.
+- Y: 드라이브는 저장소 역할만 하며, 프로그램 실행은 PC 1대에서 해야 합니다.
+
+
+[News Radar 사용]
+- 로그인: 개인별 ID / 2026
+- 총괄관리자: carlos.lee / 2026
+- 상단 메뉴: News Radar
+- 기사 새로고침: 서버 PC가 외부 인터넷에 접속 가능해야 함
+- RSS가 차단되면 기사 수동 등록 사용
+- 유용한 기사는 Technology Card 또는 Idea Board로 전환
+
+
+[개인별 계정]
+- carlos.lee / 2026 : admin, 총괄 관리 가능
+- js1978.kim / 2026 : editor
+- shb.bae / 2026 : editor
+- ab.sharafat / 2026 : editor
+- ygiz.lee / 2026 : editor
+- hs98.choi / 2026 : editor
+- 기존 member / 1111 계정은 비활성화 상태입니다.
+
+
+[FabriX Assistant]
+- 앱 실행 후 FabriX Assistant 메뉴에서 Radar App 데이터를 기반으로 FabriX Chat용 Prompt를 생성할 수 있습니다.
+- 복사 버튼으로 Prompt를 복사한 뒤 FabriX Chat(https://nsena.fabrix-s.samsungsds.com/portal/chat)에 붙여넣어 사용하십시오.

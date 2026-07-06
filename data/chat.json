@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "app": "Construction Automation & Robotics Team Chat",
+    "version": "4.1.0-social-chat",
+    "createdAt": "2026-06-16T02:03:46Z",
+    "updatedAt": "2026-06-16T06:12:15.880Z"
+  },
+  "channels": [
+    "General",
+    "Idea Discussion",
+    "Technology Review",
+    "Vendor Follow-up",
+    "PoC Planning",
+    "News Radar"
+  ],
+  "messages": [
+    {
+      "id": "7e1a9cc9-5d5d-4606-85b6-e7de1dbc4eab",
+      "channel": "General",
+      "message": "Team Chat 기능이 활성화되었습니다. 메시지뿐 아니라 이미지·동영상 첨부도 가능합니다. 자동화·로보틱스 기술, Vendor, PoC, News 관련 논의를 채널별로 공유할 수 있습니다.",
+      "userId": "system",
+      "userName": "System",
+      "role": "system",
+      "createdAt": "2026-06-16T02:03:46Z",
+      "updatedAt": "2026-06-16T05:54:01.283306Z",
+      "attachments": []
+    }
+  ]
+}

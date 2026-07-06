@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "app": "Construction Automation & Robotics News Radar",
+    "version": "3.0.0-news-radar",
+    "createdAt": "2026-06-16T01:49:18Z",
+    "updatedAt": "2026-06-16T01:49:18Z",
+    "lastRefreshAt": null,
+    "lastRefreshStatus": "Not refreshed yet. Use Refresh News in the app."
+  },
+  "items": [
+    {
+      "id": "5c5dd428-a6b7-4d2d-a0a8-50caad5795d9",
+      "title": "Sample: Construction automation news will appear here after refresh",
+      "source": "System Sample",
+      "language": "English",
+      "category": "Construction Tech",
+      "publishedAt": "2026-06-16T01:49:18Z",
+      "summary": "This sample item confirms that the News Radar menu is working. Click Refresh News after the server PC has internet access. If RSS is blocked by the company network, use Manual Article Registration.",
+      "link": "",
+      "relevance": 50,
+      "saved": false,
+      "manual": true,
+      "createdAt": "2026-06-16T01:49:18Z",
+      "updatedAt": "2026-06-16T01:49:18Z"
+    }
+  ]
+}

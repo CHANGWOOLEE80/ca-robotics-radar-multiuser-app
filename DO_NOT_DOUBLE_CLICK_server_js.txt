@@ -1,0 +1,13 @@
+Do NOT double-click server.js.
+
+If you double-click server.js, Windows may try to run it with Windows Script Host/JScript instead of Node.js.
+That causes an error such as:
+- Line 7
+- Char 1
+- Code 800A03EA
+- Source: JavaScript compilation error
+
+Correct way:
+1. Double-click START_SERVER_WINDOWS.cmd
+   or
+2. Open CMD in this folder and run: node server.js

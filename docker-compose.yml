@@ -1,0 +1,14 @@
+services:
+  ca-robotics-radar:
+    build: .
+    container_name: ca-robotics-radar
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=8080
+      - ADMIN_PIN=change-this-admin-pin
+      - MEMBER_PIN=change-this-member-pin
+      - VIEWER_PIN=change-this-viewer-pin
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped

@@ -1,0 +1,15 @@
+[초기 로그인 계정 안내]
+
+- carlos.lee / 2026 : admin, 총괄 관리 가능
+- js1978.kim / 2026 : editor
+- shb.bae / 2026 : editor
+- ab.sharafat / 2026 : editor
+- ygiz.lee / 2026 : editor
+- hs98.choi / 2026 : editor
+
+기존 공용 계정은 비활성화되어 있습니다.
+- admin / change-me-now : disabled
+- member / 1111 : disabled
+- viewer / 2222 : disabled
+
+기존 데이터를 유지하면서 계정만 바꾸려면 새 버전의 data/users.json을 기존 운영 폴더의 data/users.json에 덮어쓰십시오.

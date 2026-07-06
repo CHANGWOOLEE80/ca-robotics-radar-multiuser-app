@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Construction Automation & Robotics Radar - Multi-user</title>
+  <meta name="theme-color" content="#0f172a" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div id="toast" class="toast"></div>
+
+  <header>
+    <div class="topbar">
+      <div class="brand-wrap">
+        <div class="logo-mark">CA</div>
+        <div>
+          <h1>Construction Automation & Robotics Radar</h1>
+          <p>Multi-user platform for technology discovery, idea sharing, PoC pipeline and vendor follow-up</p>
+        </div>
+      </div>
+      <div class="userbar">
+        <span id="liveStatus" class="live-pill offline" onclick="togglePresenceDropdown(event)" title="현재 접속자 보기">Offline</span>
+        <div id="presenceDropdown" class="presence-dropdown hidden"></div>
+        <span id="userBadge" class="user-badge">Not signed in</span>
+        <button id="loginBtn" class="secondary" onclick="openLogin()">로그인</button>
+        <button id="logoutBtn" class="ghost hidden" onclick="logout()">로그아웃</button>
+      </div>
+    </div>
+    <nav id="tabs"></nav>
+  </header>
+
+  <main id="app">
+    <div class="card loading">Loading...</div>
+  </main>
+
+  <div id="modal" class="modal hidden">
+    <div class="modal-backdrop" onclick="closeModal()"></div>
+    <div class="modal-panel">
+      <div class="modal-head">
+        <div>
+          <h2 id="modalTitle">Modal</h2>
+          <p id="modalDesc"></p>
+        </div>
+        <button class="ghost" onclick="closeModal()">닫기</button>
+      </div>
+      <form id="modalBody" onsubmit="return false"></form>
+    </div>
+  </div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

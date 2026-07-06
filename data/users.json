@@ -1,0 +1,95 @@
+{
+  "salt": "32bae7f2cc92e5496ae9f1ddfe6a5207",
+  "users": [
+    {
+      "id": "a89d1030-d755-4819-ad3d-fa2ae2b6e02a",
+      "name": "Carlos Lee",
+      "loginId": "carlos.lee",
+      "role": "admin",
+      "disabled": false,
+      "pinHash": "acd6b3ee455403cc61bfa48b30c0eb4178ae2c809effadba3f7cdb60b637b58e",
+      "createdAt": "2026-06-16T02:30:00.000Z",
+      "updatedAt": "2026-06-16T02:30:00.000Z"
+    },
+    {
+      "id": "abd55ae4-a2a7-45c6-8518-2d3463fa0fed",
+      "name": "js1978.kim",
+      "loginId": "js1978.kim",
+      "role": "editor",
+      "disabled": false,
+      "pinHash": "acd6b3ee455403cc61bfa48b30c0eb4178ae2c809effadba3f7cdb60b637b58e",
+      "createdAt": "2026-06-16T02:30:00.000Z",
+      "updatedAt": "2026-06-16T02:30:00.000Z"
+    },
+    {
+      "id": "21e0645e-8ce6-4216-839e-8f70a0d0b273",
+      "name": "shb.bae",
+      "loginId": "shb.bae",
+      "role": "editor",
+      "disabled": false,
+      "pinHash": "acd6b3ee455403cc61bfa48b30c0eb4178ae2c809effadba3f7cdb60b637b58e",
+      "createdAt": "2026-06-16T02:30:00.000Z",
+      "updatedAt": "2026-06-16T02:30:00.000Z"
+    },
+    {
+      "id": "a57a2ba9-4efe-4ae0-a937-9f7680af0dd3",
+      "name": "ab.sharafat",
+      "loginId": "ab.sharafat",
+      "role": "editor",
+      "disabled": false,
+      "pinHash": "acd6b3ee455403cc61bfa48b30c0eb4178ae2c809effadba3f7cdb60b637b58e",
+      "createdAt": "2026-06-16T02:30:00.000Z",
+      "updatedAt": "2026-06-16T02:30:00.000Z"
+    },
+    {
+      "id": "9641f04b-3830-4240-9eba-1891fdc1c3cb",
+      "name": "ygiz.lee",
+      "loginId": "ygiz.lee",
+      "role": "editor",
+      "disabled": false,
+      "pinHash": "acd6b3ee455403cc61bfa48b30c0eb4178ae2c809effadba3f7cdb60b637b58e",
+      "createdAt": "2026-06-16T02:30:00.000Z",
+      "updatedAt": "2026-06-16T02:30:00.000Z"
+    },
+    {
+      "id": "75c49060-d50f-4cce-92cd-4b4d02e31b80",
+      "name": "hs98.choi",
+      "loginId": "hs98.choi",
+      "role": "editor",
+      "disabled": false,
+      "pinHash": "acd6b3ee455403cc61bfa48b30c0eb4178ae2c809effadba3f7cdb60b637b58e",
+      "createdAt": "2026-06-16T02:30:00.000Z",
+      "updatedAt": "2026-06-16T02:30:00.000Z"
+    },
+    {
+      "id": "0404b8d5-bf73-4016-833d-7ab1839e9272",
+      "name": "Legacy Admin (Disabled)",
+      "loginId": "admin",
+      "role": "admin",
+      "disabled": true,
+      "pinHash": "6f5026533b51e8ad6d1bb09b787acb50dc3deefc8fc00dcbcbb64a282764c1b8",
+      "createdAt": "2026-06-16T02:30:00.000Z",
+      "updatedAt": "2026-06-16T02:30:00.000Z"
+    },
+    {
+      "id": "ec365ea6-9ff8-45de-bc95-29ea44c9d13f",
+      "name": "Legacy Member (Disabled)",
+      "loginId": "member",
+      "role": "editor",
+      "disabled": true,
+      "pinHash": "867295f443574702a29e5c3875e005cf58d9b657f1a99877f855a5e2eff38565",
+      "createdAt": "2026-06-16T02:30:00.000Z",
+      "updatedAt": "2026-06-16T02:30:00.000Z"
+    },
+    {
+      "id": "616f00da-0910-4cc3-b6d0-400b1ed83acc",
+      "name": "Legacy Viewer (Disabled)",
+      "loginId": "viewer",
+      "role": "viewer",
+      "disabled": true,
+      "pinHash": "304334fd6ed79f084bb4d12f7b817d48f3de7c1080be9720be309716d624f4fc",
+      "createdAt": "2026-06-16T02:30:00.000Z",
+      "updatedAt": "2026-06-16T02:30:00.000Z"
+    }
+  ]
+}
